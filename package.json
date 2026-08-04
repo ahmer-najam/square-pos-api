@@ -1,0 +1,30 @@
+{
+  "name": "square-pos",
+  "version": "1.0.0",
+  "description": "Demo Node.js API for Square inventory and purchase orders",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node scripts/seed-catalog.js"
+  },
+  "keywords": [
+    "square",
+    "inventory",
+    "purchase-order",
+    "pos"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "square": "^45.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
